@@ -29,6 +29,7 @@ console.log('4. Remove the last value from supplyChanges:');
 supplyChanges.pop();
 let removedItem = 11;
 console.log(removedItem);
+console.log('The supply changes are now', supplyChanges)
 
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
@@ -125,15 +126,15 @@ let parts = 572
 let boxesFilled = 0
 
 while(boxesFilled < 1){
-      boxesFilled = 572/ 7;
-      boxesFilled =Math.floor(boxesFilled);
+      boxesFilled = parts / 7;
+      boxesFilled = Math.floor(boxesFilled);
       parts = parts % 7
    
     console.log('parts:', parts)
     console.log('boxesFilled:', boxesFilled)
   
 }
-  
+
 
 // DO NOT MODIFY
 // Used for automated testing
